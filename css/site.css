@@ -74,7 +74,7 @@ p { margin: 0 0 1.1em; }
   font-family: var(--serif); font-size: 1.6rem; font-weight: 600; color: #fff;
   text-decoration: none; letter-spacing: .01em; text-shadow: 0 2px 12px rgba(0,0,0,.45);
 }
-.brand span { color: var(--gold); font-style: italic; }
+.brand em { color: var(--gold); font-style: italic; }
 .brand:hover { color: #fff; }
 .nav { display: flex; gap: 28px; align-items: center; }
 .nav a {
@@ -100,7 +100,7 @@ p { margin: 0 0 1.1em; }
     linear-gradient(0deg, rgba(20,10,35,.55) 0%, rgba(20,10,35,0) 35%);
 }
 .hero .wrap { position: relative; width: 100%; display: flex; justify-content: flex-end; }
-.hero-copy { max-width: 540px; padding: 120px 0 80px; }
+.hero-copy { max-width: 470px; padding: 120px 0 80px; }
 .hero h1 { color: #fff; text-shadow: 0 3px 24px rgba(0,0,0,.35); }
 .hero h1 em { color: var(--gold); font-style: italic; }
 .hero p { font-size: 1.2rem; color: rgba(255,255,255,.92); }
@@ -217,4 +217,12 @@ p { margin: 0 0 1.1em; }
   .hero::before { background: linear-gradient(0deg, rgba(20,10,35,.92) 0%, rgba(20,10,35,.65) 55%, rgba(20,10,35,.25) 100%); }
   .hero .wrap { display: block; }
   .hero-copy { padding: 260px 0 56px; }
+}
+
+/* Phoenix emblem beside the name */
+.brand { display: inline-flex; align-items: center; gap: 12px; }
+.brand .mark { width: 44px; height: 44px; filter: drop-shadow(0 2px 8px rgba(0,0,0,.35)); }
+@media (max-width: 760px) {
+  .site-header .brand { font-size: 1.25rem; gap: 10px; }
+  .brand .mark { width: 36px; height: 36px; }
 }
