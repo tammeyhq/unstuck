@@ -58,8 +58,9 @@ def build():
             if os.path.exists(f"images/posts/{slug}-wide.jpg"):
                 hero = f'''    <div class="wrap post-hero"><img src="/images/posts/{slug}-wide.jpg" alt="" width="1200" height="700"></div>\n'''
             disclosure = ""
-            if meta.get("amazon"):
-                disclosure = '''      <p class="disclosure">This post contains Amazon affiliate links. If you buy through them, I may earn a small commission at no extra cost to you. Thank you for supporting Inspiration to Unstuck!</p>\n'''
+            if re.search(r'rel="sponsored', body):
+                amazon = " As an Amazon Associate I earn from qualifying purchases." if re.search(r"amzn\.to|amazon\.", body) else ""
+                disclosure = f'''      <p class="disclosure">This post contains affiliate links. If you buy through them, I may earn a small commission at no extra cost to you.{amazon} Thank you for supporting Inspiration to Unstuck!</p>\n'''
             page = f'''{head}<title>{html.escape(title)} | Inspiration to Unstuck</title>
   <meta name="description" content="{html.escape(summary)}">
   <meta property="og:title" content="{html.escape(title)}">
