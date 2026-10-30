@@ -1,4 +1,7 @@
-"""Converts posts from a WordPress export (.xml) into clean HTML bodies.
+"""NOTE: the posts already moved have been hand-edited in _source/posts/.
+Re-running this on those slugs would overwrite the edits; use it only for new imports.
+
+Converts posts from a WordPress export (.xml) into clean HTML bodies.
 
   python3 _source/convert_wp.py <export.xml> <uploads-folder> [slug ...]
 

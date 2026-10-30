@@ -7,9 +7,8 @@ BOOK = "https://calendar.app.google/PtwzU3Zmm2dFBqB67"
 EMAIL = "tammey@inspirationtounstuck.com"
 PHONE = "701-261-9066"
 SOCIAL = [
-    ("Facebook", "https://www.facebook.com/tammey.brown"),
-    ("LinkedIn", "https://www.linkedin.com/in/tammeybrown/"),
-    ("Instagram", "https://www.instagram.com/tammeybrown/"),
+    ("Facebook group", "https://www.facebook.com/groups/inspirationtounstuck"),
+    ("Instagram", "https://www.instagram.com/inspirationtounstuck/"),
 ]
 
 PAGES = {
