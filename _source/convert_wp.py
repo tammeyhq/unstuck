@@ -27,6 +27,11 @@ RUBI = re.compile(r"checkoutrubi|myflex\.ai|rubi", re.I)
 DATED = re.compile(r"\s*\[20\d\d (?:Update|Guide)\]")
 PAGE_MAP = {"about": "/about", "contact": "/contact", "blog": "/resources",
             "offerings": "/classes", "shop": "/classes", "": "/"}
+# old links that pointed at pages which never existed -> the post they meant
+ALIASES = {"daily-photo-challenge": "/photo-a-day-challenge",
+           "daily-creative-writing-prompts": "/the-power-of-creative-writing-prompts"}
+# stock photos that have since been removed from Pexels
+GONE = {"7898126", "9360199"}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -62,6 +67,9 @@ def save_web_image(src, dest):
 
 def rewrite_href(href, slugs):
     h = href.strip()
+    key = re.sub(r"^(?:https?://)?(?:www\.)?(?:inspirationtounstuck\.com)?/?", "", h, flags=re.I).strip("/").lower()
+    if key in ALIASES:
+        return ALIASES[key]
     m = re.match(r"^(?:https?://)?(?:www\.)?(inspirationtounstuck|tammeybrown)\.com/?([^?#]*)(#.*)?$", h, re.I)
     if not m:
         return None
@@ -101,6 +109,10 @@ def clean(html, slug, uploads, slugs, notes):
     os.makedirs(os.path.join(ROOT, "images/posts", slug), exist_ok=True)
     for img in soup.find_all("img"):
         src = img.get("src", "")
+        if any(f"/photos/{g}/" in src for g in GONE):
+            fig = img.find_parent("figure")
+            (fig or img).decompose()
+            continue
         if "images.pexels.com" in src:
             # free Pexels stock photos load from Pexels itself, which stays up after the move
             img.attrs = {"src": src.split("?")[0] + "?auto=compress&cs=tinysrgb&w=1100", "alt": img.get("alt", ""), "loading": "lazy"}
@@ -151,6 +163,9 @@ def clean(html, slug, uploads, slugs, notes):
             a.unwrap()
             continue
         if href.startswith("#"):
+            continue
+        if href.startswith("/") and href.strip("/").lower() in ALIASES:
+            a.attrs = {"href": ALIASES[href.strip("/").lower()]}
             continue
         new = rewrite_href(href, slugs)
         if new:
