@@ -32,7 +32,7 @@ SECTIONS = [
   ]),
   ("purpose", "Find your purpose",
    "Make sense of this new chapter, care for yourself, and decide what the rest of your story will say.", [
-    ("feeling-lost-in-life", "Feeling Lost in Life? I Get It", "If you don't know what's next, you're not broken. Here's where I started.", UNSTUCK),
+    ("feeling-lost-in-life", "Feeling Lost in Life? I Get It", "What feeling lost looked like for me, and the small steps that helped.", UNSTUCK),
     ("embracing-change", "How to Embrace Change: A Guide for Women Over 50", "Finding your footing when everything around you is shifting.", UNSTUCK),
     ("self-care-plan", "Craft Your Self-Care Plan Now", "When the weight of the world is on your shoulders, start here.", UNSTUCK),
     ("mastering-goal-setting", "Mastering Goal Setting", "Set goals that move you forward without wearing you out.", UNSTUCK),
