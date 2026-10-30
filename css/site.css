@@ -286,3 +286,51 @@ p { margin: 0 0 1.1em; }
 .list-box { margin-top: 28px; }
 @media (max-width: 900px) { .touch-grid.three { grid-template-columns: 1fr; } .believe { padding: 30px 24px; } }
 @media (max-width: 600px) { .touch-box p a[href^="mailto"] { font-size: .86em; } }
+
+/* ---------- Post pages ---------- */
+.post-head { padding: 64px 24px 36px; }
+.crumb { display: inline-block; margin-bottom: 22px; font-weight: 700; font-size: .92rem; text-decoration: none; letter-spacing: .02em; }
+.post-head h1 { font-size: clamp(2.3rem, 5vw, 3.5rem); margin-bottom: .35em; }
+.post-head .lede { font-size: 1.2em; margin-bottom: 22px; }
+.byline { display: flex; align-items: center; gap: 12px; font-weight: 700; color: var(--plum); margin: 0; }
+.byline img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+.post-hero { margin-bottom: 48px; }
+.post-hero img { width: 100%; height: auto; border-radius: var(--radius); aspect-ratio: 12 / 7; object-fit: cover; box-shadow: 0 20px 50px rgba(46,26,71,.14); }
+.disclosure { font-size: .9rem; color: var(--muted); background: var(--violet-soft); border-radius: 12px; padding: 14px 18px; margin-bottom: 32px; }
+
+.prose { font-size: 1.08rem; padding-bottom: 72px; }
+.prose > * + * { margin-top: 0; }
+.prose h2 { font-size: clamp(1.9rem, 3.4vw, 2.4rem); margin: 1.6em 0 .5em; }
+.prose h3 { font-size: 1.6rem; margin: 1.4em 0 .45em; }
+.prose h4 { font-family: var(--sans); font-size: 1.05rem; color: var(--plum); margin: 1.4em 0 .4em; }
+.prose h2, .prose h3 { scroll-margin-top: 24px; }
+.prose ul, .prose ol { padding-left: 1.4em; margin: 0 0 1.2em; }
+.prose li { margin-bottom: .55em; }
+.prose li::marker { color: var(--gold-deep); }
+.prose a { font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.prose strong { color: var(--plum); }
+.prose figure { margin: 2em 0; }
+.prose figure img, .prose > img, .prose p img { width: 100%; height: auto; border-radius: 14px; }
+.prose figcaption, .prose .caption { font-size: .88rem; color: var(--muted); text-align: center; margin-top: 10px; font-style: italic; }
+.prose blockquote { margin: 2em 0; padding: 6px 0 6px 26px; border-left: 4px solid var(--gold); font-family: var(--serif); font-size: 1.45rem; font-style: italic; color: var(--violet); line-height: 1.4; }
+.prose blockquote p { margin-bottom: .4em; }
+.prose blockquote cite { display: block; font-family: var(--sans); font-size: .9rem; font-style: normal; color: var(--muted); }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 2.5em 0; }
+.prose .table-wrap { overflow-x: auto; }
+.prose table { width: 100%; border-collapse: collapse; font-size: .95rem; background: var(--paper); border-radius: 12px; overflow: hidden; }
+.prose th, .prose td { padding: 12px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.prose th { background: var(--violet-soft); color: var(--plum); }
+.prose .toc { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px 14px; margin: 0 0 2em; font-size: .98rem; }
+.prose .toc::before { content: "In this post"; display: block; font-weight: 700; font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-deep); margin-bottom: 10px; }
+.prose .toc ul, .prose .toc ol { margin: 0 0 8px; }
+.prose .toc li { margin-bottom: .35em; }
+.prose .toc a { font-weight: 400; text-decoration: none; }
+.prose .toc a:hover { text-decoration: underline; }
+.related .post-grid { margin-top: 40px; }
+.more-link { margin-top: 40px; }
+@media (max-width: 600px) {
+  .post-head { padding: 40px 16px 24px; }
+  .post-hero { padding: 0 16px; margin-bottom: 32px; }
+  .prose { font-size: 1rem; }
+  .prose .toc { padding: 20px 20px 10px; }
+}
