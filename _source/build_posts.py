@@ -26,9 +26,11 @@ def related_cards(key, slug, posts):
     picks = (others[idx:] + others[:idx])[:3]
     out = []
     for s, title, summary, site in picks:
+        thumb = (f'<img src="/images/posts/{s}.jpg" alt="" loading="lazy" width="640" height="400">'
+                 if os.path.exists(f"images/posts/{s}.jpg") else "")
         href = f"/{s}" if os.path.exists(f"_source/posts/{s}.html") else f"{site}/{s}/"
         out.append(f'''        <a class="post-card" href="{href}">
-          <div class="post-thumb"><img src="/images/posts/{s}.jpg" alt="" loading="lazy" width="640" height="400"></div>
+          <div class="post-thumb thumb-{key}">{thumb}</div>
           <div class="post-body">
             <h3>{html.escape(title)}</h3>
             <p>{html.escape(summary)}</p>
