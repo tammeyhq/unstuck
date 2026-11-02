@@ -1,4 +1,24 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/blog", "destination": "/resources", "permanent": true },
+    { "source": "/blog/:path*", "destination": "/resources", "permanent": true },
+    { "source": "/offerings", "destination": "/classes", "permanent": true },
+    { "source": "/shop", "destination": "/classes", "permanent": true },
+    { "source": "/shop/:path*", "destination": "/classes", "permanent": true },
+    { "source": "/sample-page", "destination": "/", "permanent": true },
+    { "source": "/creative-fatigue-and-how-to-overcome-it", "destination": "/7-signs-your-ideas-are-running-on-empty-and-how-to-recognize-creative-fatigue", "permanent": true },
+    { "source": "/category/:path*", "destination": "/resources", "permanent": true },
+    { "source": "/tag/:path*", "destination": "/resources", "permanent": true },
+    { "source": "/author/:path*", "destination": "/about", "permanent": true },
+    { "source": "/page/:path*", "destination": "/resources", "permanent": true },
+    { "source": "/feed", "destination": "/resources", "permanent": false },
+    { "source": "/feed/:path*", "destination": "/resources", "permanent": false },
+    { "source": "/wp-admin/:path*", "destination": "/", "permanent": false },
+    { "source": "/wp-login.php", "destination": "/", "permanent": false },
+    { "source": "/wp-content/uploads/:path*", "destination": "/", "permanent": false },
+    { "source": "/:slug/amp", "destination": "/:slug", "permanent": true }
+  ]
 }

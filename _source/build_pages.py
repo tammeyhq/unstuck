@@ -129,6 +129,22 @@ f"""
   </section>
 """),
 
+"404": ("Page not found | Inspiration to Unstuck",
+"Sorry, that page couldn't be found.",
+f"""
+  <section class="page-intro">
+    <div class="wrap center">
+      <span class="eyebrow">Page not found</span>
+      <h1>Oops, that page has wandered off.</h1>
+      <p class="lede">It may have moved when the site got its fresh new look. Let's get you back on track.</p>
+      <div class="hero-actions center-actions">
+        <a class="btn btn-gold" href="/resources">Browse resources</a>
+        <a class="btn btn-plum" href="/">Go to the home page</a>
+      </div>
+    </div>
+  </section>
+"""),
+
 "contact": ("Contact | Inspiration to Unstuck",
 "Get in touch with Tammey at Inspiration to Unstuck. Book a time, email or call.",
 f"""
