@@ -34,6 +34,7 @@ SECTIONS = [
    "Make sense of this new chapter, care for yourself, and decide what the rest of your story will say.", [
     ("feeling-lost-in-life", "Feeling Lost in Life? I Get It", "What feeling lost looked like for me, and the small steps that helped.", UNSTUCK),
     ("self-care-isnt-selfish", "Self-Care Isn't Selfish (Even When It Feels That Way)", "Pretty watches, fun socks and a really good mocha: small joys that bring you back to you.", UNSTUCK),
+    ("overwhelmed-by-life-one-day-at-a-time", "Overwhelmed by Life? Take It One Day at a Time", "What a cold, dark pickup at 5 a.m. taught me about getting through just today.", UNSTUCK),
     ("embracing-change", "How to Embrace Change: A Guide for Women Over 50", "Finding your footing when everything around you is shifting.", UNSTUCK),
     ("self-care-plan", "Craft Your Self-Care Plan Now", "When the weight of the world is on your shoulders, start here.", UNSTUCK),
     ("mastering-goal-setting", "Mastering Goal Setting", "Set goals that move you forward without wearing you out.", UNSTUCK),
