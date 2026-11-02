@@ -3,7 +3,7 @@ Run from the repo root after building pages:  python3 _source/build_sitemap.py
 """
 import glob, os, datetime
 
-SITE = "https://inspirationtounstuck.com"
+SITE = "https://www.inspirationtounstuck.com"
 SKIP = {"404.html", "_preview.html"}
 
 def main():
