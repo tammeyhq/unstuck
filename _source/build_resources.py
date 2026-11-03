@@ -36,6 +36,7 @@ SECTIONS = [
     ("self-care-isnt-selfish", "Self-Care Isn't Selfish (Even When It Feels That Way)", "Pretty watches, fun socks and a really good mocha: small joys that bring you back to you.", UNSTUCK),
     ("overwhelmed-by-life-one-day-at-a-time", "Overwhelmed by Life? Take It One Day at a Time", "What a cold, dark pickup at 5 a.m. taught me about getting through just today.", UNSTUCK),
     ("how-to-quiet-your-mind", "How to Quiet Your Mind: Meditation for Beginners", "For anyone whose mind feels like a crowded room, even when the house is quiet.", UNSTUCK),
+    ("how-to-listen-to-your-intuition", "How to Listen to Your Intuition Again", "A muddy windshield, a piece of paper that said \"I am worthy,\" and a nudge I almost ignored.", UNSTUCK),
     ("embracing-change", "How to Embrace Change: A Guide for Women Over 50", "Finding your footing when everything around you is shifting.", UNSTUCK),
     ("self-care-plan", "Craft Your Self-Care Plan Now", "When the weight of the world is on your shoulders, start here.", UNSTUCK),
     ("mastering-goal-setting", "Mastering Goal Setting", "Set goals that move you forward without wearing you out.", UNSTUCK),
