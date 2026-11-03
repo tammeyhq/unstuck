@@ -129,6 +129,58 @@ f"""
   </section>
 """),
 
+"privacy": ("Privacy Policy & Disclosures | Inspiration to Unstuck",
+"How Inspiration to Unstuck handles your information, cookies, analytics and affiliate links.",
+f"""
+  <section class="page-intro">
+    <div class="wrap center">
+      <span class="eyebrow">Privacy policy &amp; disclosures</span>
+      <h1>Your privacy matters to me</h1>
+      <p class="lede">Here's what happens with your information when you visit Inspiration to Unstuck, in plain language.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap narrow prose">
+      <p><em>Last updated: November 3, 2026</em></p>
+
+      <h2 id="who">Who I am</h2>
+      <p>Inspiration to Unstuck (www.inspirationtounstuck.com) is run by me, Tammey. If you have any questions about this page or your information, email me at <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
+
+      <h2 id="what">What information is collected</h2>
+      <p>You can read everything on this site without signing up or giving me any personal information.</p>
+      <p>The only information collected automatically is general, anonymous information about how people use the site, through Google Analytics (see below). I don't sell, rent or trade anyone's information. Ever.</p>
+      <p>If you email me or book a time with me, I'll only use what you send me to reply to you.</p>
+
+      <h2 id="analytics">Google Analytics and cookies</h2>
+      <p>This site uses Google Analytics to help me understand which pages are helpful, how people find the site, and what kind of device they're using. That helps me write more of what you actually want to read.</p>
+      <p>Google Analytics uses cookies (small files saved by your browser) and collects things like the pages you visit, how long you stay, your general location (such as your city or country), and your browser and device type. It doesn't tell me who you are.</p>
+      <p>Google processes this information under its own privacy policy. You can learn more about <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from sites that use its services</a>. If you'd rather not be included, you can install the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics opt-out browser add-on</a>, or block cookies in your browser settings.</p>
+
+      <h2 id="affiliate">Affiliate links</h2>
+      <p>Some posts include affiliate links. If you click one and make a purchase, I may earn a small commission at no extra cost to you. I only share things I think are genuinely helpful, and any post with affiliate links says so near the top.</p>
+      <p>Inspiration to Unstuck is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate I earn from qualifying purchases.</p>
+      <p>Some posts may also include affiliate links for other companies, such as Canva or Creative Fabrica.</p>
+
+      <h2 id="other-sites">Other websites and services</h2>
+      <p>This site links to other places, like my Facebook group, Instagram, Google Calendar (for booking a time with me) and the stores mentioned above. Once you click over to another site, its own privacy policy applies.</p>
+      <p>To look its best, this site also loads fonts from Google Fonts and some photos from Pexels, which may see basic technical information such as your IP address when your browser requests them.</p>
+
+      <h2 id="email-list">My email list</h2>
+      <p>My email list is coming soon. When it opens, you'll only be added if you choose to sign up, and you'll be able to unsubscribe at any time. I'll update this page with the details then.</p>
+
+      <h2 id="children">Children</h2>
+      <p>This site is written for adults and isn't directed to children under 13. I don't knowingly collect information from children.</p>
+
+      <h2 id="changes">Changes to this page</h2>
+      <p>If anything changes, I'll update this page and the date at the top.</p>
+
+      <h2 id="questions">Questions?</h2>
+      <p>Just email me at <a href="mailto:{EMAIL}">{EMAIL}</a>. I'm happy to help.</p>
+    </div>
+  </section>
+"""),
+
 "404": ("Page not found | Inspiration to Unstuck",
 "Sorry, that page couldn't be found.",
 f"""
