@@ -153,7 +153,7 @@ f"""
           <li>A lined journal page for every prompt</li>
           <li>Print it, or write on it digitally. Skip around, there are no rules</li>
         </ul>
-        <p>Pop in your name and email and I'll send it straight to your inbox. You'll also get my emails with encouragement, new how-tos and first word on classes. Unsubscribe any time.</p>
+        <p>Pop in your email and I'll send it straight to your inbox. You'll also get my emails with encouragement, new how-tos and first word on classes. Unsubscribe any time.</p>
         <div class="kit-form">
           <script async data-uid="68b0917f89" src="https://inspiration-to-unstuck.kit.com/68b0917f89/index.js"></script>
         </div>
@@ -201,8 +201,8 @@ f"""
       <p>To look its best, this site also loads fonts from Google Fonts and some photos from Pexels, which may see basic technical information such as your IP address when your browser requests them.</p>
 
       <h2 id="email-list">My email list</h2>
-      <p>If you sign up for my email list (for example, to get the free 100 Creative Prompts journal), I collect your first name and email address. I use them only to send you the free gift, encouragement, new how-tos and news about classes and workshops. I never sell or share your information.</p>
-      <p>My emails are sent through <a href="https://kit.com/privacy" target="_blank" rel="noopener">Kit</a>, which stores your name and email address for me and may track whether emails are opened or links are clicked. Every email has an unsubscribe link at the bottom, and you can also email me any time to be removed.</p>
+      <p>If you sign up for my email list (for example, to get the free 100 Creative Prompts journal), I collect your email address (and your first name, if you share it). I use them only to send you the free gift, encouragement, new how-tos and news about classes and workshops. I never sell or share your information.</p>
+      <p>My emails are sent through <a href="https://kit.com/privacy" target="_blank" rel="noopener">Kit</a>, which stores your email address for me and may track whether emails are opened or links are clicked. Every email has an unsubscribe link at the bottom, and you can also email me any time to be removed.</p>
 
       <h2 id="children">Children</h2>
       <p>This site is written for adults and isn't directed to children under 13. I don't knowingly collect information from children.</p>
