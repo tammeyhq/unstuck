@@ -61,7 +61,25 @@
         <p>There's no cost. I hate it when I get to a site all excited to see what they offer, and instead I get tricked into getting their spam! I won't ever do that to you. This is my gift to you, my way of saying I understand and I'm here for you.</p>
         <p>Pop in your first name and email and I'll send it straight to your inbox. You'll also get my emails with encouragement, new how-tos and first word on classes. Unsubscribe any time.</p>
         <div class="kit-form">
-          <script async data-uid="68b0917f89" src="https://inspiration-to-unstuck.kit.com/68b0917f89/index.js"></script>
+          <script>
+            (function (s, e, n, d, er) {
+              s['Sender'] = er;
+              s[er] = s[er] || function () {
+                (s[er].q = s[er].q || []).push(arguments)
+              }, s[er].l = 1 * new Date();
+              s[er].on = function(event, callback) {
+                s[er].listeners = s[er].listeners || {};
+                (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+              };
+              var a = e.createElement(n),
+                  m = e.getElementsByTagName(n)[0];
+              a.async = 1;
+              a.src = d;
+              m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+            sender('0a2f2b8f317063')
+          </script>
+          <div style="text-align: left" class="sender-form-field" data-sender-form-id="bkRpYY"></div>
         </div>
         <p class="fine">Your information stays with me. See my <a href="/privacy#email-list">privacy policy</a>.</p>
       </div>

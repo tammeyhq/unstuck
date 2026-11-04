@@ -156,7 +156,25 @@ f"""
         <p>There's no cost. I hate it when I get to a site all excited to see what they offer, and instead I get tricked into getting their spam! I won't ever do that to you. This is my gift to you, my way of saying I understand and I'm here for you.</p>
         <p>Pop in your first name and email and I'll send it straight to your inbox. You'll also get my emails with encouragement, new how-tos and first word on classes. Unsubscribe any time.</p>
         <div class="kit-form">
-          <script async data-uid="68b0917f89" src="https://inspiration-to-unstuck.kit.com/68b0917f89/index.js"></script>
+          <script>
+            (function (s, e, n, d, er) {{
+              s['Sender'] = er;
+              s[er] = s[er] || function () {{
+                (s[er].q = s[er].q || []).push(arguments)
+              }}, s[er].l = 1 * new Date();
+              s[er].on = function(event, callback) {{
+                s[er].listeners = s[er].listeners || {{}};
+                (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+              }};
+              var a = e.createElement(n),
+                  m = e.getElementsByTagName(n)[0];
+              a.async = 1;
+              a.src = d;
+              m.parentNode.insertBefore(a, m)
+            }})(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+            sender('0a2f2b8f317063')
+          </script>
+          <div style="text-align: left" class="sender-form-field" data-sender-form-id="bkRpYY"></div>
         </div>
         <p class="fine">Your information stays with me. See my <a href="/privacy#email-list">privacy policy</a>.</p>
       </div>
@@ -203,7 +221,7 @@ f"""
 
       <h2 id="email-list">My email list</h2>
       <p>If you sign up for my email list (for example, to get the 100 Creative Prompts journal), I collect your first name and email address. I use them only to send you the journal, encouragement, new how-tos and news about classes and workshops. I never sell or share your information.</p>
-      <p>My emails are sent through <a href="https://kit.com/privacy" target="_blank" rel="noopener">Kit</a>, which stores your name and email address for me and may track whether emails are opened or links are clicked. Every email has an unsubscribe link at the bottom, and you can also email me any time to be removed.</p>
+      <p>My emails are sent through <a href="https://www.sender.net/privacy-policy/" target="_blank" rel="noopener">Sender</a>, which stores your name and email address for me and may track whether emails are opened or links are clicked. Every email has an unsubscribe link at the bottom, and you can also email me any time to be removed.</p>
 
       <h2 id="children">Children</h2>
       <p>This site is written for adults and isn't directed to children under 13. I don't knowingly collect information from children.</p>
