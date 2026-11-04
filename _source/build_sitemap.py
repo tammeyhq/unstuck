@@ -15,7 +15,7 @@ def main():
         path = "/" if f == "index.html" else "/" + f[:-5]
         urls.append(f"  <url><loc>{SITE}{path}</loc><lastmod>{today}</lastmod></url>")
     open("sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + "\n</urlset>\n")
-    open("robots.txt", "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
+    open("robots.txt", "w").write(f"User-agent: *\nAllow: /\nDisallow: /downloads/\n\nSitemap: {SITE}/sitemap.xml\n")
     print(len(urls), "pages in sitemap")
 
 if __name__ == "__main__":
