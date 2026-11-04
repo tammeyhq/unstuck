@@ -111,7 +111,7 @@ def build():
     <div class="wrap">
       <span class="eyebrow">A gift for you</span>
       <h2>100 Creative Prompts journal</h2>
-      <p class="lede">Get my printable journal with 100 prompts to help you write, dream and create again. It's my thank-you when you join my email list.</p>
+      <p class="lede">Get my printable journal with 100 prompts to help you write, dream and create again. There's no cost. It's my thank-you when you join my email list.</p>
       <div class="hero-actions center-actions">
         <a class="btn btn-gold" href="/journal">Get your journal</a>
         <a class="btn btn-ghost" href="{BOOK}" target="_blank" rel="noopener">Book a time</a>
