@@ -339,3 +339,8 @@ p { margin: 0 0 1.1em; }
 .gift-cover img { width: 100%; max-width: 380px; height: auto; display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 18px 40px rgba(46,26,71,.22); }
 .kit-form { margin: 28px 0 12px; }
 .fine { font-size: .9rem; color: var(--muted); }
+/* Kit form: hide its built-in image (the page already shows the cover) and match site colors */
+.kit-form .formkit-background { display: none !important; }
+.kit-form .formkit-form { max-width: 100% !important; border-color: var(--line) !important; border-radius: var(--radius) !important; }
+.kit-form .formkit-submit { background-color: var(--plum) !important; border-radius: 999px !important; }
+.kit-form .formkit-submit:hover { background-color: var(--violet) !important; }
