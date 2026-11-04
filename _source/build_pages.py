@@ -129,6 +129,40 @@ f"""
   </section>
 """),
 
+"free-journal": ("Free 100 Creative Prompts Journal | Inspiration to Unstuck",
+"Get 100 creative writing prompts, each with its own journal page, free when you join Tammey's email list. For women ready to rediscover their creativity.",
+f"""
+  <section class="page-intro">
+    <div class="wrap center">
+      <span class="eyebrow">Free gift</span>
+      <h1>100 Creative Prompts</h1>
+      <p class="lede">A printable journal to help you fill your creative well again, one little spark at a time.</p>
+    </div>
+  </section>
+
+  <section class="section meet gift">
+    <div class="wrap meet-grid">
+      <div class="gift-cover">
+        <img src="/images/free-journal-cover.jpg" alt="Cover of the Inspiration to Unstuck 100 Creative Prompts journal" width="393" height="509">
+      </div>
+      <div>
+        <h2>Your imagination didn't go anywhere</h2>
+        <p>Ever stared at a blank page and felt like your creative well had run dry? I have, more times than I can count. So I put together 100 prompts to get you writing, dreaming and playing with words again.</p>
+        <ul class="you-list">
+          <li>100 prompts, some fun, some thoughtful, a few that may surprise you</li>
+          <li>A lined journal page for every prompt</li>
+          <li>Print it, or write on it digitally. Skip around, there are no rules</li>
+        </ul>
+        <p>Pop in your name and email and I'll send it straight to your inbox. You'll also get my emails with encouragement, new how-tos and first word on classes. Unsubscribe any time.</p>
+        <div class="kit-form">
+          <script async data-uid="68b0917f89" src="https://inspiration-to-unstuck.kit.com/68b0917f89/index.js"></script>
+        </div>
+        <p class="fine">Your information stays with me. See my <a href="/privacy#email-list">privacy policy</a>.</p>
+      </div>
+    </div>
+  </section>
+"""),
+
 "privacy": ("Privacy Policy & Disclosures | Inspiration to Unstuck",
 "How Inspiration to Unstuck handles your information, cookies, analytics and affiliate links.",
 f"""
@@ -142,7 +176,7 @@ f"""
 
   <section class="section">
     <div class="wrap narrow prose">
-      <p><em>Last updated: November 3, 2026</em></p>
+      <p><em>Last updated: November 4, 2026</em></p>
 
       <h2 id="who">Who I am</h2>
       <p>Inspiration to Unstuck (www.inspirationtounstuck.com) is run by me, Tammey. If you have any questions about this page or your information, email me at <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
@@ -167,7 +201,8 @@ f"""
       <p>To look its best, this site also loads fonts from Google Fonts and some photos from Pexels, which may see basic technical information such as your IP address when your browser requests them.</p>
 
       <h2 id="email-list">My email list</h2>
-      <p>My email list is coming soon. When it opens, you'll only be added if you choose to sign up, and you'll be able to unsubscribe at any time. I'll update this page with the details then.</p>
+      <p>If you sign up for my email list (for example, to get the free 100 Creative Prompts journal), I collect your first name and email address. I use them only to send you the free gift, encouragement, new how-tos and news about classes and workshops. I never sell or share your information.</p>
+      <p>My emails are sent through <a href="https://kit.com/privacy" target="_blank" rel="noopener">Kit</a>, which stores your name and email address for me and may track whether emails are opened or links are clicked. Every email has an unsubscribe link at the bottom, and you can also email me any time to be removed.</p>
 
       <h2 id="children">Children</h2>
       <p>This site is written for adults and isn't directed to children under 13. I don't knowingly collect information from children.</p>
@@ -230,8 +265,8 @@ f"""
       </div>
       <div class="touch-box list-box center">
         <h3>Join the list</h3>
-        <p>Encouragement, new how-tos and first word on classes, sent straight to your inbox.</p>
-        <span class="badge">Coming soon</span>
+        <p>Encouragement, new how-tos and first word on classes, sent straight to your inbox. You'll get my 100 Creative Prompts journal free when you join.</p>
+        <a class="btn btn-gold" href="/free-journal">Get the free journal</a>
       </div>
     </div>
   </section>

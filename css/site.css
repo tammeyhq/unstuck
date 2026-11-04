@@ -334,3 +334,8 @@ p { margin: 0 0 1.1em; }
   .prose { font-size: 1rem; }
   .prose .toc { padding: 20px 20px 10px; }
 }
+
+/* Free journal page */
+.gift-cover img { width: 100%; max-width: 380px; height: auto; display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 18px 40px rgba(46,26,71,.22); }
+.kit-form { margin: 28px 0 12px; }
+.fine { font-size: .9rem; color: var(--muted); }
