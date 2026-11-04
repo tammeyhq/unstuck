@@ -109,11 +109,11 @@ def build():
 
   <section class="section classes center">
     <div class="wrap">
-      <span class="eyebrow">Free gift</span>
-      <h2>100 Creative Prompts, free</h2>
-      <p class="lede">Get my printable journal with 100 prompts to help you write, dream and create again. It's free when you join my email list.</p>
+      <span class="eyebrow">A gift for you</span>
+      <h2>100 Creative Prompts journal</h2>
+      <p class="lede">Get my printable journal with 100 prompts to help you write, dream and create again. It's my thank-you when you join my email list.</p>
       <div class="hero-actions center-actions">
-        <a class="btn btn-gold" href="/free-journal">Get the free journal</a>
+        <a class="btn btn-gold" href="/journal">Get your journal</a>
         <a class="btn btn-ghost" href="{BOOK}" target="_blank" rel="noopener">Book a time</a>
       </div>
     </div>

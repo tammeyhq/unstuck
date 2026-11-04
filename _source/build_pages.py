@@ -63,7 +63,7 @@ f"""
   <section class="section classes center">
     <div class="wrap">
       <h2>Ready to take your first step?</h2>
-      <p class="lede">Start with the free resources, or book a time to talk with me.</p>
+      <p class="lede">Start with the resources, or book a time to talk with me.</p>
       <div class="hero-actions center-actions">
         <a class="btn btn-gold" href="/resources">Explore resources</a>
         <a class="btn btn-ghost" href="{BOOK}" target="_blank" rel="noopener">Book a time</a>
@@ -120,8 +120,8 @@ f"""
           <a class="btn btn-gold" href="{BOOK}" target="_blank" rel="noopener">Book a time</a>
         </div>
         <div class="touch-box">
-          <h3>Start now, for free</h3>
-          <p>While classes are on the way, explore free guides, prompts and how-tos.</p>
+          <h3>Start now</h3>
+          <p>While classes are on the way, explore guides, prompts and how-tos.</p>
           <a class="btn btn-plum" href="/resources">Explore resources</a>
         </div>
       </div>
@@ -129,12 +129,12 @@ f"""
   </section>
 """),
 
-"free-journal": ("Free 100 Creative Prompts Journal | Inspiration to Unstuck",
-"Get 100 creative writing prompts, each with its own journal page, free when you join Tammey's email list. For women ready to rediscover their creativity.",
+"journal": ("100 Creative Prompts Journal | Inspiration to Unstuck",
+"Get 100 creative writing prompts, each with its own journal page, when you join Tammey's email list. For women ready to rediscover their creativity.",
 f"""
   <section class="page-intro">
     <div class="wrap center">
-      <span class="eyebrow">Free gift</span>
+      <span class="eyebrow">A gift for you</span>
       <h1>100 Creative Prompts</h1>
       <p class="lede">A printable journal to help you fill your creative well again, one little spark at a time.</p>
     </div>
@@ -143,7 +143,7 @@ f"""
   <section class="section meet gift">
     <div class="wrap meet-grid">
       <div class="gift-cover">
-        <img src="/images/free-journal-cover.jpg" alt="Cover of the Inspiration to Unstuck 100 Creative Prompts journal" width="393" height="509">
+        <img src="/images/journal-cover.jpg" alt="Cover of the Inspiration to Unstuck 100 Creative Prompts journal" width="393" height="509">
       </div>
       <div>
         <h2>Your imagination didn't go anywhere</h2>
@@ -201,7 +201,7 @@ f"""
       <p>To look its best, this site also loads fonts from Google Fonts and some photos from Pexels, which may see basic technical information such as your IP address when your browser requests them.</p>
 
       <h2 id="email-list">My email list</h2>
-      <p>If you sign up for my email list (for example, to get the free 100 Creative Prompts journal), I collect your first name and email address. I use them only to send you the free gift, encouragement, new how-tos and news about classes and workshops. I never sell or share your information.</p>
+      <p>If you sign up for my email list (for example, to get the 100 Creative Prompts journal), I collect your first name and email address. I use them only to send you the journal, encouragement, new how-tos and news about classes and workshops. I never sell or share your information.</p>
       <p>My emails are sent through <a href="https://kit.com/privacy" target="_blank" rel="noopener">Kit</a>, which stores your name and email address for me and may track whether emails are opened or links are clicked. Every email has an unsubscribe link at the bottom, and you can also email me any time to be removed.</p>
 
       <h2 id="children">Children</h2>
@@ -265,8 +265,8 @@ f"""
       </div>
       <div class="touch-box list-box center">
         <h3>Join the list</h3>
-        <p>Encouragement, new how-tos and first word on classes, sent straight to your inbox. You'll get my 100 Creative Prompts journal free when you join.</p>
-        <a class="btn btn-gold" href="/free-journal">Get the free journal</a>
+        <p>Encouragement, new how-tos and first word on classes, sent straight to your inbox. Join and I'll send you my 100 Creative Prompts journal as a thank-you.</p>
+        <a class="btn btn-gold" href="/journal">Get your journal</a>
       </div>
     </div>
   </section>
