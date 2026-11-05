@@ -12,6 +12,7 @@ TB = "https://tammeybrown.com"
 SECTIONS = [
   ("creativity", "Rediscover your creativity",
    "Journaling, prompts and gentle creative challenges to refill the well when you feel drained.", [
+    ("creative-hobbies-for-women-over-50", "Creative Hobbies for Women Over 50", "When your creative well runs dry, you don't have to force it. Here's how I'm letting mine refill, and some gentle hobbies to try.", UNSTUCK),
     ("7-signs-your-ideas-are-running-on-empty-and-how-to-recognize-creative-fatigue", "7 Signs Your Ideas Are Running on Empty", "How to recognize creative fatigue, and what to do about it.", UNSTUCK),
     ("recognizing-creative-burnout-and-writers-block", "Recognizing Creative Burnout and Writer's Block", "When the page stays blank, here's what may be going on.", UNSTUCK),
     ("signs-of-creative-burnout-and-actions", "10 Signs of Creative Burnout and Empowering Actions", "Spot the signs and take small, kind steps to reignite your spark.", UNSTUCK),
